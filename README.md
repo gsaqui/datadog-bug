@@ -8,7 +8,7 @@
 
 ## Building docker instance
 
-build -t gsaqui/test:1 .
+docker build -t gsaqui/test:1 .
 
 ## Running container
 

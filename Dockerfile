@@ -3,8 +3,8 @@ FROM richarvey/nginx-php-fpm:1.5.7
 ENV SKIP_COMPOSER 1
 ENV SKIP_CHOWN 1
 
-RUN wget https://github.com/DataDog/dd-trace-php/releases/download/0.29.0/datadog-php-tracer_0.29.0_noarch.apk
-RUN apk add datadog-php-tracer_0.29.0_noarch.apk --allow-untrusted
+RUN wget https://github.com/DataDog/dd-trace-php/releases/download/0.30.0/datadog-php-tracer_0.30.0_noarch.apk
+RUN apk add datadog-php-tracer_0.30.0_noarch.apk --allow-untrusted
 
 # RUN echo "log_level = debug" >> /usr/local/etc/php-fpm.conf
 
